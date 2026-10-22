@@ -1,0 +1,14 @@
+{
+  "name": "studyflow-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser end-to-end tests for StudyFlow (real Chrome, isolated test API and test database)",
+  "scripts": {
+    "test": "node run.mjs"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.0",
+    "playwright-core": "^1.64.1"
+  }
+}

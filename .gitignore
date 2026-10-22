@@ -1,0 +1,20 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+server/.env
+
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Browser test output
+e2e/screenshots/
